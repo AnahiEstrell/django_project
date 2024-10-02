@@ -1,0 +1,13 @@
+1. Tener instalado django
+  pip install django
+2. Comando para crear un nuevo proyecto de django
+  django-admin startproject app
+3. Considerar la carpeta de requiriments y requiriments.dev en /etc
+4. Considerar el run.sh para la aplicación automatizada
+5. Crear el Dockerfile de la aplicación y docker-compose
+6. Crear los .env
+7. Crear aplicación de core
+  python manage.py startapp core
+8. Agregar la ruta:
+  management/commands/wait_for_db.py
+9. Configurar el archivo settings
