@@ -12,3 +12,4 @@ Pillow>=8.2.0,<8.3.0
 httpx>=0.24.1,<0.24.2
 sympy>=1.12,<1.13
 gunicorn==20.1.0
+dj-database-url==2.2.0
